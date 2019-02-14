@@ -13,9 +13,10 @@
     "prettier": "prettier '**/*.{js,json,css,md,yml}' '!{build/**,coverage/**,reports/**,temp/**,package.json,package-lock.json,test-results.json}' --write"
   },
   "dependencies": {
+    "@babel/runtime": "^7.3.1",
+    "@material-ui/core": "^3.9.2",
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.1.2",
-    "gatsby-plugin-material-ui": "^0.1.3",
     "gatsby-plugin-styled-components": "^3.0.5",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
@@ -34,7 +35,6 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^24.1.0",
     "prettier": "^1.16.4",
-    "react-test-renderer": "^16.8.2",
-    "@babel/runtime": "<=7.0.0-beta.55"
+    "react-test-renderer": "^16.8.2"
   }
 }
